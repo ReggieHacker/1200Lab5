@@ -37,7 +37,7 @@ for i in time_intervals:
     
 #subplot sizes
 plt.subplots(1,3, figsize= (10, 5))
-#subplot
+#subplots
 plt.subplot(1,3,1)
 plt.plot(time_intervals, x_intervals)
 plt.xlabel('time')
